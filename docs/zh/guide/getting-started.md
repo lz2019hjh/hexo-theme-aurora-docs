@@ -91,7 +91,18 @@ prismjs:
 
 ---
 
-- **步骤 5**: 使用以下命令来运行本地环境。
+- **步骤 5**: 更换主题
+
+```yaml:no-line-numbers{4}
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: aurora
+```
+
+---
+
+- **步骤 6**: 使用以下命令来运行本地环境。
 
 ```shell:no-line-numbers
 hexo clean & hexo g & hexo server
